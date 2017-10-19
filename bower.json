@@ -1,0 +1,17 @@
+{
+  "name": "AngularMaterial",
+  "version": "1.0.0",
+  "authors": [
+    "xuxl <xuxle@yonyou.com>"
+  ],
+  "description": "AngularMaterial",
+  "main": "app.js",
+  "keywords": [
+    "AngularMaterial"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-material": "^1.1.5",
+    "angular-ui-router": "^1.0.10"
+  }
+}
