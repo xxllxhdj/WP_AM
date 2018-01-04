@@ -1,4 +1,11 @@
-angular.module('AngularMaterial')
 
-.controller('HomeController', ['$scope', function($scope) {
-}]);
+(function () {
+    'use strict';
+
+    angular.module('AngularMaterial')
+        .controller('HomeController', appCtrl);
+
+    appCtrl.$inject = ['$scope'];
+    function appCtrl($scope) {
+    }
+})();
