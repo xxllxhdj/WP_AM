@@ -1,2 +1,40 @@
 
+/******************************************************toolbar******************************************************/
 
+.am-toolbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+/******************************************************toolbar******************************************************/
+
+/******************************************************sidenav******************************************************/
+
+.am-view-container {
+    padding-top: 64px;
+}
+
+@media (max-width: 959px) and (min-width: 0) and (orientation: portrait) {
+    .am-view-container {
+        padding-top: 56px;
+    }
+}
+@media (max-width: 959px) and (min-width: 0) and (orientation: landscape) {
+    .am-view-container {
+        padding-top: 48px;
+    }
+}
+
+.am-sidenav,
+.am-sidenav.md-locked-open-add-active,
+.am-sidenav.md-locked-open {
+    width: 272px;
+    min-width: 272px;
+    max-width: 272px;
+}
+
+/******************************************************sidenav******************************************************/
